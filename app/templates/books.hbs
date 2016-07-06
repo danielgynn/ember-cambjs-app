@@ -1,0 +1,8 @@
+<!-- app/templates/books.hbs -->
+<h2 class="center-align">Books</h2>
+
+<div class="row">
+  {{#each model as |book|}}
+    {{book-listing book=book}}
+  {{/each}}
+</div>

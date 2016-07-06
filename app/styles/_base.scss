@@ -1,0 +1,51 @@
+// Base
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0 0 100px;
+}
+
+footer {
+  bottom: 0;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.nav-divider {
+  @extend .grey, .lighten-2;
+  content: '';
+  display: inline;
+  min-height: 64px;
+  position: absolute;
+  width: 1px;
+}
+
+.card {
+  .card-content {
+    .card-title {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+
+  .card-image {
+    max-height: 70% !important;
+  }
+
+  .card-reveal {
+    p {
+      font-size: 12px;
+    }
+
+    .card-title {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+}

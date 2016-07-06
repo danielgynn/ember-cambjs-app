@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'talk-app',
+    modulePrefix: 'ember-cambjs-app',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
